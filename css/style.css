@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 56px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: orangered;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+  padding-top: 10vh;
+  height: 95vh;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.mymap{
+  width: 100%;
+}
+
+.input-field label {
+  color: orangered;
+}
+
+.input-field input[type=text]:focus + label {
+  color: orangered !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid orangered !important;
+  box-shadow: 0 1px 0 0 orangered !important;
+}
+
+.input-field .prefix.active {
+  color: orangered !important;
+}
+ 
+
+.icon-block{
+  transition: transform .3s;
+}
+
+.icon-block:hover{
+  transform: scale(1.2);
+}
+
+body{
+  overflow: visible !important;
+}
+
+
+.donate{
+  margin: 7%;
+}
