@@ -20,8 +20,13 @@ p {
   line-height: 2rem;
 }
 
+h1{
+  text-shadow: 2px 2px black;
+  color: #EFEACF;
+}
+
 .sidenav-trigger {
-  color: orangered;
+  color: #EFEACF;
 }
 
 .parallax-container {
@@ -67,20 +72,20 @@ footer.page-footer {
 }
 
 .input-field label {
-  color: orangered;
+  color: black;
 }
 
 .input-field input[type=text]:focus + label {
-  color: orangered !important;
+  color: black !important;
 }
 
 .input-field input[type=text]:focus {
-  border-bottom: 1px solid orangered !important;
-  box-shadow: 0 1px 0 0 orangered !important;
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
 }
 
 .input-field .prefix.active {
-  color: orangered !important;
+  color: black !important;
 }
  
 
@@ -99,4 +104,16 @@ body{
 
 .donate{
   margin: 7%;
+}
+
+.mycol{
+  background-color: #EFEACF;
+  color: black;
+}
+.mycol:hover{
+  color: #EFEACF;
+  background-color: black;
+}
+.mytextcol{
+  color: #EFEACF;
 }
